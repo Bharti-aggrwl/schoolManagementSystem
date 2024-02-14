@@ -9,7 +9,7 @@ public class SchoolManagementSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SchoolManagementSystemApplication.class, args);
-		System.out.println("running");
+		System.out.println("runnin111g");
 	}
 
 }
