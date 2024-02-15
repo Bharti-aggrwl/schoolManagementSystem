@@ -11,7 +11,7 @@ public class SchoolManagementSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SchoolManagementSystemApplication.class, args);
-		System.out.println("runnin111g");
+		System.out.println("running");
 	}
 
 }
