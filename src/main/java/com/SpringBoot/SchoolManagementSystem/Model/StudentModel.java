@@ -121,7 +121,7 @@ public class StudentModel {
 	public void setCreationDate(Date creationDate) {
 		this.creationDate = creationDate;
 	}
-	public boolean isActiveStatus() {
+	public boolean getActiveStatus() {
 		return activeStatus;
 	}
 	public void setActiveStatus(boolean activeStatus) {
