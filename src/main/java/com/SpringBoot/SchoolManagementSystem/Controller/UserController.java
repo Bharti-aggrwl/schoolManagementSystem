@@ -18,7 +18,7 @@ import com.SpringBoot.SchoolManagementSystem.Service.LoginService;
 
 @RestController
 //@RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "*")
 public class UserController {
 	
 	@Autowired
@@ -29,9 +29,13 @@ public class UserController {
 	}
 
 	@GetMapping("/api/user/")
-	public String getData()
+	public Reply getData()
 	{
-		return "this is data";
+		Reply reply = new Reply();
+		String a = "b";
+		reply.setData(a);
+		return reply;
+		
 	}
 	
 	@GetMapping("/login")
